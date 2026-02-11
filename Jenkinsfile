@@ -5,7 +5,7 @@ pipeline {
 
         stage('Clone') {
             steps {
-                git 'https://github.com/YOUR_USERNAME/simple-node-app.git'
+                git 'https://github.com/jagafaster/simple-node-app.git'
             }
         }
 
